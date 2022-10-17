@@ -1,0 +1,63 @@
+body{
+    font-family:'Monserrat', sans-serif;
+    margin-left: 75px;
+    margin-right: 75px;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: white;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    border-style: solid;
+    border-radius: 12px;
+    border-color: blue;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width:600px)
+{
+.botones{
+    display: flex;
+    justify-content: center;   
+    flex-direction: column;
+    border-style: none;
+}
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    border-style: none;   
+}
+
+button{
+    background-image: radial-gradient(white, rgb(190, 74, 74));
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+button:hover{
+    color: white;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+html{
+    background-image: linear-gradient(white, lightblue);
+}
+
