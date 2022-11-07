@@ -1,7 +1,7 @@
-var comida = ["./frutas.jfif", "./verduras.jfif", "./harinas.jfif",
-        "./lacteos.jfif", "./dulces.jfif", "./bebidas no alcoholicas.jfif",
-        "./bebidas alcoholicas.jfif", "./carne roja.jfif", "./carne de pollo.jfif",
-        "./pescados y mariscos.jfif"];
+var comida = ["frutas.jfif", "verduras.jfif", "harinas.jfif",
+        "lacteos.jfif", "dulces.jfif", "bebidas no alcoholicas.jfif",
+        "bebidas alcoholicas.jfif", "carne roja.jfif", "carne de pollo.jfif",
+        "pescados y mariscos.jfif"];
 var cont = 0;
     function carrusel(comidas) {
         comidas.addEventListener('click', e => {
