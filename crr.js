@@ -1,7 +1,7 @@
-var comida = ["frutas.jfif", "verduras.jfif", "harinas.jfif",
-        "lacteos.jfif", "dulces.jfif", "bebidas no alcoholicas.jfif",
-        "bebidas alcoholicas.jfif", "carne roja.jfif", "carne de pollo.jfif",
-        "pescados y mariscos.jfif"];
+var comida = ["https://adveryon.sirv.com/Pagina%20web/Frutas.jfif", "https://adveryon.sirv.com/Pagina%20web/Verduras.jfif", "https://adveryon.sirv.com/Pagina%20web/Harinas.jfif",
+        "https://adveryon.sirv.com/Pagina%20web/Lacteos.jfif", "https://adveryon.sirv.com/Pagina%20web/Dulces.jfif", "https://adveryon.sirv.com/Pagina%20web/Bebidas%20no%20Alcoholicas.jfif",
+        "https://adveryon.sirv.com/Pagina%20web/Bebidas%20Alcoholicas.jfif", "https://adveryon.sirv.com/Pagina%20web/Carne%20roja.jfif", "https://adveryon.sirv.com/Pagina%20web/Carne%20de%20Pollo.jfif",
+        "https://adveryon.sirv.com/Pagina%20web/Pescados%20y%20Mariscos.jfif"];
 var cont = 0;
     function carrusel(comidas) {
         comidas.addEventListener('click', e => {
