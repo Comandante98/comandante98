@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Consulta</title>
+        <link rel="stylesheet" href="EstiloConsulta.css">
+    </head>
+<body>
+
+<main>
+<div>
+<form onsubmit="return validar()">
+<label for="nombre">Nombre:&nbsp&nbsp</label><label id="errorNombre"></label><br>
+<input type="text" id="nom"><br>
+<label for="telefono">Telefono:&nbsp&nbsp</label><label id="errorTelefono"></label><br>
+<input type="text" id="tel"><br>
+<label for="consulta">Consulta:&nbsp&nbsp</label><label id="errorConsulta"></label><br>
+<textarea id="men"></textarea>
+<input type="submit" value="Enviar">
+</form>
+</div>
+
+<div class="consultas"><ul id = "consul"><ul id = "listaConsultas"></ul></ul></div>
+
+</main>
+
+<script defer src="./validacion.js"></script>
+
+
+</body>
+</html>
