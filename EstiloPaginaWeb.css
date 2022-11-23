@@ -61,3 +61,21 @@ html{
     background-image: linear-gradient(white, lightblue);
 }
 
+.comidas{
+    display: flex;
+    justify-content: center;
+
+}
+
+.anterior{
+    position: absolute;
+    left: 90;
+    top: 190;
+}
+
+.siguiente{
+    position: absolute;
+    right: 90;
+    top: 190;
+}
+
