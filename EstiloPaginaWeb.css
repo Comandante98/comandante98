@@ -1,21 +1,18 @@
 body{
     font-family:'Monserrat', sans-serif;
-    margin-left: 75px;
-    margin-right: 75px;
-    border-style: solid;
-    border-radius: 12px;
-    background-color: white;
-    padding: 5px;
 }
-
+header{
+    background-color: red;
+    border-style: inset;
+    border-radius: 12px;
+}
 h1{
     text-align: center;
 }
 
 div{
-    border-style: solid;
+    border-style: outset;
     border-radius: 12px;
-    border-color: blue;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;

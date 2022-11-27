@@ -3,16 +3,19 @@ form{
 }
 
 div{
-    margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-style: outset;
+    border-radius: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 label{
     font-family: fantasy;
 }
 #men{
-    width: 500px;
-    height: 250px;
+    width: 200%;
+    height: 20%;
     resize: none;
 }
